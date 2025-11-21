@@ -1,0 +1,12 @@
+月视图加载失败: 'NoneType' object has no attribute 'deleteLater'
+Traceback (most recent call last):
+  File "c:\Users\likun\Downloads\工作提示\QT6-20251017\daily_reminder_qt61017.py", line 3671, in create_work_plan_tab
+    self.monthly_view.set_task_data(task_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "c:\Users\likun\Downloads\工作提示\QT6-20251017\daily_reminder_qt61017.py", line 2923, in set_task_data
+    self.update_calendar()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\likun\Downloads\工作提示\QT6-20251017\daily_reminder_qt61017.py", line 2669, in update_calendar
+    item.widget().deleteLater()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'deleteLater'
